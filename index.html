@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Effects of Climate Change</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <!-- leaflet css and js -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+        <style>
+            .myContainer1, .myContainer2, #usTemperatureChangeOuter, #usNaturalDisasterDeathsOuter, #usNaturalDisasterDamagesOuter, #intro_area, #intro_area2, #intro_area3, #container, .hurricaneOuter, #exit_area{
+                position: fixed;
+                /* margin:auto; */
+                width:1300px;
+                height: 800px;
+                margin-left: 400px;
+                float: left;
+            }
+            .myContainer1, .myContainer2, #usTemperatureChangeOuter, #usNaturalDisasterDeathsOuter, #usNaturalDisasterDamagesOuter, #container, .hurricaneOuter {
+                z-index: 1;
+                opacity: 0;
+                margin-top: 100px;
+            }
+            .hurricaneOuter {
+              width:1280px;
+              height: 720px;
+            }
+            svg#canvas, svg#legend{
+                background-color: #1D1F20;
+                box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+                padding: 10px;
+                border-radius: 5px;
+            }
+            #container{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center;
+            }
+            #legend{
+                color: rgb(11, 12, 17);
+                font-size: 18px;
+                text-align: center;
+                min-height: 160px;
+                max-width: 160px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            #tooltip{
+                visibility: hidden;
+                min-height: 160px;
+                width: 200px;
+                margin-top: 2px;
+                color: #1D1F20;
+                font-size: 24px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+            #rightSide{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 50px;
+                width: 200px;
+            }
+            .tile:hover{
+                fill: Gainsboro
+            }
+            #usNaturalDisasterDeathsOuter {
+              width: 1100px;
+              height: 700px;
+            }
+            #usTemperatureChangeOuter {
+                height: 500px;
+            }
+            #usNaturalDisasterDamagesOuter {
+                height: 890px;
+                width: 1100px;
+            }
+            #intro_area2, #intro_area3, #exit_area {
+              margin-left: 500px;
+              margin-top: 300px;
+              width: 900px;
+              font-size: 25px;
+              opacity: 0;
+            }
+            #intro_area {
+              margin-left: 300px;
+              margin-top: 200px;
+              font-size: 75px;
+            }
+            .intro_area_names {
+              font-size: 25px;
+            }
+            .myContainer1 {
+                z-index: 1;
+            }
+            .text_area1, .text_area2, .text_area3, .text_area4, .text_area5, .text_area6, .text_area7, .text_area8{
+                position: fixed;
+                width: 300px;
+                float: left;
+                margin-left: 50px;
+                margin-top: 100px;
+                margin-right: 50px;
+                opacity: 0;
+            }
+            #hurri-path-svg {
+                opacity: 0;
+                z-index: 1;
+            }
+            #line_div {
+                border-right: 1px solid;
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                border-left: 1px solid;
+                width:1300px;
+                height: 740px;  
+                padding:10px;
+            }
+            #line_svg {
+                width: 1280px;
+                height: 720px;
+                background-color: white;
+                border: 1px solid lightgray;
+                border-radius: 3px;
+            }
+            main.container-fluid {
+                width: 1140px;
+            }
+            .y-axis .domain {
+                display: none;
+            }
+
+            .x-axis-title, .y-axis-title {
+                font-weight: 700;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="empty_div"></div>
+        <div class="text-center" id="intro_area">
+          Effects of Climate Change in Natural Disasters
+          <div class="intro_area_names">
+            By: Nicholas Jones, Christopher Stone, Ben Robbins, and David Zalewski
+          </div>
+        </div>
+        <div class="text-center" id="intro_area2">
+          It feels like every time a natural disaster occurs, whether it be the fire that is continuously tearing its way through California or a hurricane carving through Florida, climate change is the first reason to be thrown into the ring as the culprit.
+        </div>
+        <div class="text-center" id="intro_area3">
+          Our project hopes to visualize data in a way that shows the correlation between a rising global temperature, and increasingly damaging storms.
+        </div>
+        <div class="text-center" id="exit_area">
+          In conclusion, with a warming climate there is a severe increase in the amount of natural disasters, therefore posing a significant economical and human risk.
+        </div>
+        <div class="text_area1">
+            <h1 class="text-center">Wildfire Visualization</h1>
+            <br>
+            This chart shows information about cumulative wildfire acreage burnt per state. The common trend when going through the years is that there are less and less states in the "Low" areas
+            and more states in the "Medium" and "Large" areas.<br><br>In 1992, the majority of states had many small, in control fires (10,000 acres)
+        </div>
+        <div class="text_area2">
+            <h1 class="text-center">Wildfire Visualization</h1>
+            <br>This chart shows information about cumulative wildfire acreage burnt per state. The common trend when going through the years is that there are less and less states in the "Low" areas
+            and more states in the "Medium" and "Large" areas.<br><br>In 2012, a sizable number of states had fires with over 100,000 acres burned. 
+        </div>
+        <div class="text_area3">
+            <h1 class="text-center">US Temperature Change</h1>
+            <br>This chart visualizes the US Temperature Change from 1961 to 2020 in a continuous line chart, where each spike in temperature outdoes the previous spike. 
+            This steady upward trend is also reflected in our next chart, where we correlate this trend to an increase in disaster damages.
+        </div>
+        <div class="text_area4">
+          <h1 class="text-center">US Natural Disaster Damages</h1>
+          <br>This chart represents the correlation between disasters in the US and their cost through time in a scatter plot from 1970-2021. 
+          We see that not only are there significantly more Natural Disasters but their costs are at an all-time high.
+          In 1970 we saw that the most expensive meteorological disaster was $1 million dollars.
+        </div>
+        <div class="text_area5">
+          <h1 class="text-center">US Natural Disaster Damages</h1>
+          <br>Around 1990 we started seeing significantly more Natural disasters and their damage costs only skyrocketed. 
+          We see around 1990 a Meteorological disaster (Flood- Storm) caused upwards of 100B USD. 
+          As well as a Geophysical disaster (Earthquake Activity) reaching around 100 Billion USD as well. 
+        </div>
+        <div class="text_area6">
+          <h1 class="text-center">US Natural Disaster Deaths</h1>
+          <br>In this visualization, we see a stacked bar chart representing the number of deaths throughout each year from 1970 to about 2021. 
+          Something to take note of is the fact that the number of deaths fell sharply after 1980, this due to factors including stricter building codes and better early warning systems.
+        </div>
+        <div class="text_area7">
+          <h1 class="text-center">Number of Tornadoes per State</h1>
+          <br>This visualization is a treemap which shows the total amount of tornadoes for each state in a period of 5 years. 
+          <br><br>
+          Rectangles grow larger depending on the value of the data placed inside them. 
+          As years increase, the total amount of tornadoes per state increases by a large margin. 
+          <br><br>
+          In addition to this, states in the north-east and west, also experience a rise in tornadoes, demonstrating that the cities once thought far enough away, may not be as safe as previously thought.
+        </div>
+        <div class="text_area8">
+          <h1 class="text-center">Hurricane Innovative Visualization</h1>
+          <br>This is our innovative visualization which overlays the path of a hurricane on top of a map of the United States. 
+          As the years increase, the strength of the hurricanes increases along with, as well as the duration of high power. 
+        </div>
+        <div class="myContainer1">
+            <div id="line_div" class="border-dark bg-light shadow-sm">
+                <span id="character-name"></span>
+                <svg id="line_svg"></svg>
+            </div>
+        </div>
+        <div class="myContainer2">
+            <h1 class="text-center">Area 2</h1>
+            <h3 class="text-center">Test test</h3>
+            <input id="play_button" type="button" value="testbutton" onclick="printTest()">;
+        </div>
+        <div class="card shadow mb-4" id="usTemperatureChangeOuter">
+            <div class="card-body">
+              <h5 class="card-title">US Temperature Change</h5>
+              <div class="mb-2">
+                <div id="usTemperatureChange"></div>
+              </div>
+              <p class="text-muted mb-0"></p>
+                Data source:
+                <a
+                  href="https://www.kaggle.com/code/sevgisarac/climate-change/data"
+                  target="_blank"
+                  class="text-muted"
+                  >Climate Change</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card shadow mb-4" id="usNaturalDisasterDeathsOuter">
+            <div class="card-body">
+              <h5 class="card-title">US Natural Disasters Deaths</h5>
+              <div class="mb-2">
+                <div id="usNaturalDisasterDeaths"></div>
+              </div>
+              <p class="text-muted mb-0">
+                Data source:
+                <a
+                  href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"
+                  target="_blank"
+                  class="text-muted"
+                  >ALL NATURAL DISASTERS 1900-2021 / EOSDIS</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card shadow mb-4" id="usNaturalDisasterDamagesOuter">
+            <div class="card-body">
+              <h5 class="card-title">US Natural Disasters Damages</h5>
+              <div class="mb-2">
+                <div id="usNaturalDisasterDamages"></div>
+              </div>
+              <p class="text-muted mb-0">
+                Data source:
+                <a
+                  href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"
+                  target="_blank"
+                  class="text-muted"
+                  >ALL NATURAL DISASTERS 1900-2021 / EOSDIS</a
+                >
+              </p>
+            </div>
+          </div>
+          <div id='container'>
+            <svg id='canvas'>
+    
+            </svg>
+            <div id='rightSide'>
+                <div id='tooltip'>
+    
+                </div>
+                <svg id='legend'>
+                    <g>
+                        <rect class="legend-item" x="10" y="0" width="40" height="40" fill="orange"></rect>
+                        <text x="60" y="20" fill="white">West</text>
+                    </g>
+                    <g>
+                        <rect class="legend-item" x="10" y="40" width="40" height="40" fill="blue"></rect>
+                        <text x="60" y="60" fill="white">Mid-West</text>
+                    </g>
+                    <g>
+                        <rect class="legend-item" x="10" y="80" width="40" height="40" fill="green"></rect>
+                        <text x="60" y="100" fill="white">South</text>
+                    </g>
+                    <g>
+                        <rect class="legend-item" x="10" y="120" width="40" height="40" fill="red"></rect>
+                        <text x="60" y="140" fill="white">North-East</text>
+                    </g> 
+                </svg>
+            </div>
+            </div>
+            <div class="hurricaneOuter">
+              <div class="row" >
+                <div class="col">
+                  <div id='leaflet-map' style='width:100%; height:720px;'></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+    <script src="js/main.js"></script>
+</html> 
+    

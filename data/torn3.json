@@ -1,0 +1,4064 @@
+{
+    "name" : "States",
+    "children" : [{
+        "name" : "Statess",
+        "children": [{    
+                "c": 1,
+                "state": "AL",
+                "year": 1950,
+                "value": 49
+                },
+                {
+                "c": 2,
+                "state": "AK",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 3,
+                "state": "AZ",
+                "year": 1950,
+                "value": 3
+                },
+                {
+                "c": 4,
+                "state": "AR",
+                "year": 1950,
+                "value": 75
+                },
+                {
+                "c": 5,
+                "state": "CA",
+                "year": 1950,
+                "value": 5
+                },
+                {
+                "c": 6,
+                "state": "CO",
+                "year": 1950,
+                "value": 36
+                },
+                {
+                "c": 7,
+                "state": "CT",
+                "year": 1950,
+                "value": 7
+                },
+                {
+                "c": 8,
+                "state": "DE",
+                "year": 1950,
+                "value": 1
+                },
+                {
+                "c": 9,
+                "state": "FL",
+                "year": 1950,
+                "value": 59
+                },
+                {
+                "c": 10,
+                "state": "GA",
+                "year": 1950,
+                "value": 53
+                },
+                {
+                "c": 11,
+                "state": "HI",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 12,
+                "state": "ID",
+                "year": 1950,
+                "value": 3
+                },
+                {
+                "c": 13,
+                "state": "IL",
+                "year": 1950,
+                "value": 28
+                },
+                {
+                "c": 14,
+                "state": "IN",
+                "year": 1950,
+                "value": 45
+                },
+                {
+                "c": 15,
+                "state": "IA",
+                "year": 1950,
+                "value": 55
+                },
+                {
+                "c": 16,
+                "state": "KS",
+                "year": 1950,
+                "value": 223
+                },
+                {
+                "c": 17,
+                "state": "KY",
+                "year": 1950,
+                "value": 9
+                },
+                {
+                "c": 18,
+                "state": "LA",
+                "year": 1950,
+                "value": 68
+                },
+                {
+                "c": 19,
+                "state": "ME",
+                "year": 1950,
+                "value": 4
+                },
+                {
+                "c": 20,
+                "state": "MD",
+                "year": 1950,
+                "value": 8
+                },
+                {
+                "c": 21,
+                "state": "MA",
+                "year": 1950,
+                "value": 6
+                },
+                {
+                "c": 22,
+                "state": "MI",
+                "year": 1950,
+                "value": 36
+                },
+                {
+                "c": 23,
+                "state": "MN",
+                "year": 1950,
+                "value": 25
+                },
+                {
+                "c": 24,
+                "state": "MS",
+                "year": 1950,
+                "value": 65
+                },
+                {
+                "c": 25,
+                "state": "MO",
+                "year": 1950,
+                "value": 60
+                },
+                {
+                "c": 26,
+                "state": "MT",
+                "year": 1950,
+                "value": 11
+                },
+                {
+                "c": 27,
+                "state": "NE",
+                "year": 1950,
+                "value": 84
+                },
+                {
+                "c": 28,
+                "state": "NV",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 29,
+                "state": "NH",
+                "year": 1950,
+                "value": 4
+                },
+                {
+                "c": 30,
+                "state": "NJ",
+                "year": 1950,
+                "value": 3
+                },
+                {
+                "c": 31,
+                "state": "NM",
+                "year": 1950,
+                "value": 12
+                },
+                {
+                "c": 32,
+                "state": "NY",
+                "year": 1950,
+                "value": 3
+                },
+                {
+                "c": 33,
+                "state": "NC",
+                "year": 1950,
+                "value": 32
+                },
+                {
+                "c": 34,
+                "state": "ND",
+                "year": 1950,
+                "value": 26
+                },
+                {
+                "c": 35,
+                "state": "OH",
+                "year": 1950,
+                "value": 24
+                },
+                {
+                "c": 36,
+                "state": "OK",
+                "year": 1950,
+                "value": 193
+                },
+                {
+                "c": 37,
+                "state": "OR",
+                "year": 1950,
+                "value": 2
+                },
+                {
+                "c": 38,
+                "state": "PA",
+                "year": 1950,
+                "value": 43
+                },
+                {
+                "c": 39,
+                "state": "RI",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 40,
+                "state": "SC",
+                "year": 1950,
+                "value": 9
+                },
+                {
+                "c": 41,
+                "state": "SD",
+                "year": 1950,
+                "value": 36
+                },
+                {
+                "c": 42,
+                "state": "TN",
+                "year": 1950,
+                "value": 43
+                },
+                {
+                "c": 43,
+                "state": "TX",
+                "year": 1950,
+                "value": 157
+                },
+                {
+                "c": 44,
+                "state": "UT",
+                "year": 1950,
+                "value": 3
+                },
+                {
+                "c": 45,
+                "state": "VT",
+                "year": 1950,
+                "value": 1
+                },
+                {
+                "c": 46,
+                "state": "VA",
+                "year": 1950,
+                "value": 19
+                },
+                {
+                "c": 47,
+                "state": "WA",
+                "year": 1950,
+                "value": 1
+                },
+                {
+                "c": 48,
+                "state": "WV",
+                "year": 1950,
+                "value": 5
+                },
+                {
+                "c": 49,
+                "state": "WI",
+                "year": 1950,
+                "value": 25
+                },
+                {
+                "c": 50,
+                "state": "WY",
+                "year": 1950,
+                "value": 13
+                },
+                {
+                "c": 51,
+                "state": "DC",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 52,
+                "state": "PR",
+                "year": 1950,
+                "value": 0
+                },
+                {
+                "c": 53,
+                "state": "AL",
+                "year": 1955,
+                "value": 85
+                },
+                {
+                "c": 54,
+                "state": "AK",
+                "year": 1955,
+                "value": 1
+                },
+                {
+                "c": 55,
+                "state": "AZ",
+                "year": 1955,
+                "value": 15
+                },
+                {
+                "c": 56,
+                "state": "AR",
+                "year": 1955,
+                "value": 78
+                },
+                {
+                "c": 57,
+                "state": "CA",
+                "year": 1955,
+                "value": 17
+                },
+                {
+                "c": 58,
+                "state": "CO",
+                "year": 1955,
+                "value": 71
+                },
+                {
+                "c": 59,
+                "state": "CT",
+                "year": 1955,
+                "value": 10
+                },
+                {
+                "c": 60,
+                "state": "DE",
+                "year": 1955,
+                "value": 4
+                },
+                {
+                "c": 61,
+                "state": "FL",
+                "year": 1955,
+                "value": 83
+                },
+                {
+                "c": 62,
+                "state": "GA",
+                "year": 1955,
+                "value": 71
+                },
+                {
+                "c": 63,
+                "state": "HI",
+                "year": 1955,
+                "value": 2
+                },
+                {
+                "c": 64,
+                "state": "ID",
+                "year": 1955,
+                "value": 10
+                },
+                {
+                "c": 65,
+                "state": "IL",
+                "year": 1955,
+                "value": 157
+                },
+                {
+                "c": 66,
+                "state": "IN",
+                "year": 1955,
+                "value": 114
+                },
+                {
+                "c": 67,
+                "state": "IA",
+                "year": 1955,
+                "value": 70
+                },
+                {
+                "c": 68,
+                "state": "KS",
+                "year": 1955,
+                "value": 330
+                },
+                {
+                "c": 69,
+                "state": "KY",
+                "year": 1955,
+                "value": 26
+                },
+                {
+                "c": 70,
+                "state": "LA",
+                "year": 1955,
+                "value": 54
+                },
+                {
+                "c": 71,
+                "state": "ME",
+                "year": 1955,
+                "value": 16
+                },
+                {
+                "c": 72,
+                "state": "MD",
+                "year": 1955,
+                "value": 4
+                },
+                {
+                "c": 73,
+                "state": "MA",
+                "year": 1955,
+                "value": 33
+                },
+                {
+                "c": 74,
+                "state": "MI",
+                "year": 1955,
+                "value": 56
+                },
+                {
+                "c": 75,
+                "state": "MN",
+                "year": 1955,
+                "value": 63
+                },
+                {
+                "c": 76,
+                "state": "MS",
+                "year": 1955,
+                "value": 70
+                },
+                {
+                "c": 77,
+                "state": "MO",
+                "year": 1955,
+                "value": 153
+                },
+                {
+                "c": 78,
+                "state": "MT",
+                "year": 1955,
+                "value": 11
+                },
+                {
+                "c": 79,
+                "state": "NE",
+                "year": 1955,
+                "value": 213
+                },
+                {
+                "c": 80,
+                "state": "NV",
+                "year": 1955,
+                "value": 0
+                },
+                {
+                "c": 81,
+                "state": "NH",
+                "year": 1955,
+                "value": 5
+                },
+                {
+                "c": 82,
+                "state": "NJ",
+                "year": 1955,
+                "value": 9
+                },
+                {
+                "c": 83,
+                "state": "NM",
+                "year": 1955,
+                "value": 45
+                },
+                {
+                "c": 84,
+                "state": "NY",
+                "year": 1955,
+                "value": 9
+                },
+                {
+                "c": 85,
+                "state": "NC",
+                "year": 1955,
+                "value": 38
+                },
+                {
+                "c": 86,
+                "state": "ND",
+                "year": 1955,
+                "value": 59
+                },
+                {
+                "c": 87,
+                "state": "OH",
+                "year": 1955,
+                "value": 41
+                },
+                {
+                "c": 88,
+                "state": "OK",
+                "year": 1955,
+                "value": 344
+                },
+                {
+                "c": 89,
+                "state": "OR",
+                "year": 1955,
+                "value": 2
+                },
+                {
+                "c": 90,
+                "state": "PA",
+                "year": 1955,
+                "value": 18
+                },
+                {
+                "c": 91,
+                "state": "RI",
+                "year": 1955,
+                "value": 0
+                },
+                {
+                "c": 92,
+                "state": "SC",
+                "year": 1955,
+                "value": 28
+                },
+                {
+                "c": 93,
+                "state": "SD",
+                "year": 1955,
+                "value": 57
+                },
+                {
+                "c": 94,
+                "state": "TN",
+                "year": 1955,
+                "value": 46
+                },
+                {
+                "c": 95,
+                "state": "TX",
+                "year": 1955,
+                "value": 465
+                },
+                {
+                "c": 96,
+                "state": "UT",
+                "year": 1955,
+                "value": 4
+                },
+                {
+                "c": 97,
+                "state": "VT",
+                "year": 1955,
+                "value": 4
+                },
+                {
+                "c": 98,
+                "state": "VA",
+                "year": 1955,
+                "value": 22
+                },
+                {
+                "c": 99,
+                "state": "WA",
+                "year": 1955,
+                "value": 6
+                },
+                {
+                "c": 100,
+                "state": "WV",
+                "year": 1955,
+                "value": 3
+                },
+                {
+                "c": 101,
+                "state": "WI",
+                "year": 1955,
+                "value": 73
+                },
+                {
+                "c": 102,
+                "state": "WY",
+                "year": 1955,
+                "value": 25
+                },
+                {
+                "c": 103,
+                "state": "DC",
+                "year": 1955,
+                "value": 0
+                },
+                {
+                "c": 104,
+                "state": "PR",
+                "year": 1955,
+                "value": 1
+                },
+                {
+                "c": 105,
+                "state": "AL",
+                "year": 1960,
+                "value": 90
+                },
+                {
+                "c": 106,
+                "state": "AK",
+                "year": 1960,
+                "value": 0
+                },
+                {
+                "c": 107,
+                "state": "AZ",
+                "year": 1960,
+                "value": 11
+                },
+                {
+                "c": 108,
+                "state": "AR",
+                "year": 1960,
+                "value": 100
+                },
+                {
+                "c": 109,
+                "state": "CA",
+                "year": 1960,
+                "value": 10
+                },
+                {
+                "c": 110,
+                "state": "CO",
+                "year": 1960,
+                "value": 57
+                },
+                {
+                "c": 111,
+                "state": "CT",
+                "year": 1960,
+                "value": 4
+                },
+                {
+                "c": 112,
+                "state": "DE",
+                "year": 1960,
+                "value": 4
+                },
+                {
+                "c": 113,
+                "state": "FL",
+                "year": 1960,
+                "value": 138
+                },
+                {
+                "c": 114,
+                "state": "GA",
+                "year": 1960,
+                "value": 92
+                },
+                {
+                "c": 115,
+                "state": "HI",
+                "year": 1960,
+                "value": 2
+                },
+                {
+                "c": 116,
+                "state": "ID",
+                "year": 1960,
+                "value": 9
+                },
+                {
+                "c": 117,
+                "state": "IL",
+                "year": 1960,
+                "value": 104
+                },
+                {
+                "c": 118,
+                "state": "IN",
+                "year": 1960,
+                "value": 93
+                },
+                {
+                "c": 119,
+                "state": "IA",
+                "year": 1960,
+                "value": 121
+                },
+                {
+                "c": 120,
+                "state": "KS",
+                "year": 1960,
+                "value": 289
+                },
+                {
+                "c": 121,
+                "state": "KY",
+                "year": 1960,
+                "value": 29
+                },
+                {
+                "c": 122,
+                "state": "LA",
+                "year": 1960,
+                "value": 76
+                },
+                {
+                "c": 123,
+                "state": "ME",
+                "year": 1960,
+                "value": 15
+                },
+                {
+                "c": 124,
+                "state": "MD",
+                "year": 1960,
+                "value": 11
+                },
+                {
+                "c": 125,
+                "state": "MA",
+                "year": 1960,
+                "value": 19
+                },
+                {
+                "c": 126,
+                "state": "MI",
+                "year": 1960,
+                "value": 34
+                },
+                {
+                "c": 127,
+                "state": "MN",
+                "year": 1960,
+                "value": 57
+                },
+                {
+                "c": 128,
+                "state": "MS",
+                "year": 1960,
+                "value": 51
+                },
+                {
+                "c": 129,
+                "state": "MO",
+                "year": 1960,
+                "value": 119
+                },
+                {
+                "c": 130,
+                "state": "MT",
+                "year": 1960,
+                "value": 24
+                },
+                {
+                "c": 131,
+                "state": "NE",
+                "year": 1960,
+                "value": 154
+                },
+                {
+                "c": 132,
+                "state": "NV",
+                "year": 1960,
+                "value": 5
+                },
+                {
+                "c": 133,
+                "state": "NH",
+                "year": 1960,
+                "value": 16
+                },
+                {
+                "c": 134,
+                "state": "NJ",
+                "year": 1960,
+                "value": 9
+                },
+                {
+                "c": 135,
+                "state": "NM",
+                "year": 1960,
+                "value": 48
+                },
+                {
+                "c": 136,
+                "state": "NY",
+                "year": 1960,
+                "value": 14
+                },
+                {
+                "c": 137,
+                "state": "NC",
+                "year": 1960,
+                "value": 43
+                },
+                {
+                "c": 138,
+                "state": "ND",
+                "year": 1960,
+                "value": 43
+                },
+                {
+                "c": 139,
+                "state": "OH",
+                "year": 1960,
+                "value": 55
+                },
+                {
+                "c": 140,
+                "state": "OK",
+                "year": 1960,
+                "value": 329
+                },
+                {
+                "c": 141,
+                "state": "OR",
+                "year": 1960,
+                "value": 2
+                },
+                {
+                "c": 142,
+                "state": "PA",
+                "year": 1960,
+                "value": 23
+                },
+                {
+                "c": 143,
+                "state": "RI",
+                "year": 1960,
+                "value": 0
+                },
+                {
+                "c": 144,
+                "state": "SC",
+                "year": 1960,
+                "value": 59
+                },
+                {
+                "c": 145,
+                "state": "SD",
+                "year": 1960,
+                "value": 97
+                },
+                {
+                "c": 146,
+                "state": "TN",
+                "year": 1960,
+                "value": 24
+                },
+                {
+                "c": 147,
+                "state": "TX",
+                "year": 1960,
+                "value": 503
+                },
+                {
+                "c": 148,
+                "state": "UT",
+                "year": 1960,
+                "value": 4
+                },
+                {
+                "c": 149,
+                "state": "VT",
+                "year": 1960,
+                "value": 11
+                },
+                {
+                "c": 150,
+                "state": "VA",
+                "year": 1960,
+                "value": 20
+                },
+                {
+                "c": 151,
+                "state": "WA",
+                "year": 1960,
+                "value": 4
+                },
+                {
+                "c": 152,
+                "state": "WV",
+                "year": 1960,
+                "value": 5
+                },
+                {
+                "c": 153,
+                "state": "WI",
+                "year": 1960,
+                "value": 72
+                },
+                {
+                "c": 154,
+                "state": "WY",
+                "year": 1960,
+                "value": 37
+                },
+                {
+                "c": 155,
+                "state": "DC",
+                "year": 1960,
+                "value": 0
+                },
+                {
+                "c": 156,
+                "state": "PR",
+                "year": 1960,
+                "value": 1
+                },
+                {
+                "c": 157,
+                "state": "AL",
+                "year": 1965,
+                "value": 64
+                },
+                {
+                "c": 158,
+                "state": "AK",
+                "year": 1965,
+                "value": 0
+                },
+                {
+                "c": 159,
+                "state": "AZ",
+                "year": 1965,
+                "value": 19
+                },
+                {
+                "c": 160,
+                "state": "AR",
+                "year": 1965,
+                "value": 66
+                },
+                {
+                "c": 161,
+                "state": "CA",
+                "year": 1965,
+                "value": 16
+                },
+                {
+                "c": 162,
+                "state": "CO",
+                "year": 1965,
+                "value": 80
+                },
+                {
+                "c": 163,
+                "state": "CT",
+                "year": 1965,
+                "value": 4
+                },
+                {
+                "c": 164,
+                "state": "DE",
+                "year": 1965,
+                "value": 4
+                },
+                {
+                "c": 165,
+                "state": "FL",
+                "year": 1965,
+                "value": 178
+                },
+                {
+                "c": 166,
+                "state": "GA",
+                "year": 1965,
+                "value": 95
+                },
+                {
+                "c": 167,
+                "state": "HI",
+                "year": 1965,
+                "value": 3
+                },
+                {
+                "c": 168,
+                "state": "ID",
+                "year": 1965,
+                "value": 7
+                },
+                {
+                "c": 169,
+                "state": "IL",
+                "year": 1965,
+                "value": 97
+                },
+                {
+                "c": 170,
+                "state": "IN",
+                "year": 1965,
+                "value": 121
+                },
+                {
+                "c": 171,
+                "state": "IA",
+                "year": 1965,
+                "value": 190
+                },
+                {
+                "c": 172,
+                "state": "KS",
+                "year": 1965,
+                "value": 167
+                },
+                {
+                "c": 173,
+                "state": "KY",
+                "year": 1965,
+                "value": 36
+                },
+                {
+                "c": 174,
+                "state": "LA",
+                "year": 1965,
+                "value": 92
+                },
+                {
+                "c": 175,
+                "state": "ME",
+                "year": 1965,
+                "value": 9
+                },
+                {
+                "c": 176,
+                "state": "MD",
+                "year": 1965,
+                "value": 11
+                },
+                {
+                "c": 177,
+                "state": "MA",
+                "year": 1965,
+                "value": 16
+                },
+                {
+                "c": 178,
+                "state": "MI",
+                "year": 1965,
+                "value": 73
+                },
+                {
+                "c": 179,
+                "state": "MN",
+                "year": 1965,
+                "value": 139
+                },
+                {
+                "c": 180,
+                "state": "MS",
+                "year": 1965,
+                "value": 126
+                },
+                {
+                "c": 181,
+                "state": "MO",
+                "year": 1965,
+                "value": 184
+                },
+                {
+                "c": 182,
+                "state": "MT",
+                "year": 1965,
+                "value": 14
+                },
+                {
+                "c": 183,
+                "state": "NE",
+                "year": 1965,
+                "value": 136
+                },
+                {
+                "c": 184,
+                "state": "NV",
+                "year": 1965,
+                "value": 2
+                },
+                {
+                "c": 185,
+                "state": "NH",
+                "year": 1965,
+                "value": 14
+                },
+                {
+                "c": 186,
+                "state": "NJ",
+                "year": 1965,
+                "value": 1
+                },
+                {
+                "c": 187,
+                "state": "NM",
+                "year": 1965,
+                "value": 49
+                },
+                {
+                "c": 188,
+                "state": "NY",
+                "year": 1965,
+                "value": 17
+                },
+                {
+                "c": 189,
+                "state": "NC",
+                "year": 1965,
+                "value": 35
+                },
+                {
+                "c": 190,
+                "state": "ND",
+                "year": 1965,
+                "value": 99
+                },
+                {
+                "c": 191,
+                "state": "OH",
+                "year": 1965,
+                "value": 70
+                },
+                {
+                "c": 192,
+                "state": "OK",
+                "year": 1965,
+                "value": 245
+                },
+                {
+                "c": 193,
+                "state": "OR",
+                "year": 1965,
+                "value": 10
+                },
+                {
+                "c": 194,
+                "state": "PA",
+                "year": 1965,
+                "value": 17
+                },
+                {
+                "c": 195,
+                "state": "RI",
+                "year": 1965,
+                "value": 0
+                },
+                {
+                "c": 196,
+                "state": "SC",
+                "year": 1965,
+                "value": 59
+                },
+                {
+                "c": 197,
+                "state": "SD",
+                "year": 1965,
+                "value": 169
+                },
+                {
+                "c": 198,
+                "state": "TN",
+                "year": 1965,
+                "value": 48
+                },
+                {
+                "c": 199,
+                "state": "TX",
+                "year": 1965,
+                "value": 680
+                },
+                {
+                "c": 200,
+                "state": "UT",
+                "year": 1965,
+                "value": 16
+                },
+                {
+                "c": 201,
+                "state": "VT",
+                "year": 1965,
+                "value": 3
+                },
+                {
+                "c": 202,
+                "state": "VA",
+                "year": 1965,
+                "value": 21
+                },
+                {
+                "c": 203,
+                "state": "WA",
+                "year": 1965,
+                "value": 3
+                },
+                {
+                "c": 204,
+                "state": "WV",
+                "year": 1965,
+                "value": 14
+                },
+                {
+                "c": 205,
+                "state": "WI",
+                "year": 1965,
+                "value": 120
+                },
+                {
+                "c": 206,
+                "state": "WY",
+                "year": 1965,
+                "value": 32
+                },
+                {
+                "c": 207,
+                "state": "DC",
+                "year": 1965,
+                "value": 0
+                },
+                {
+                "c": 208,
+                "state": "PR",
+                "year": 1965,
+                "value": 3
+                },
+                {
+                "c": 209,
+                "state": "AL",
+                "year": 1970,
+                "value": 134
+                },
+                {
+                "c": 210,
+                "state": "AK",
+                "year": 1970,
+                "value": 0
+                },
+                {
+                "c": 211,
+                "state": "AZ",
+                "year": 1970,
+                "value": 39
+                },
+                {
+                "c": 212,
+                "state": "AR",
+                "year": 1970,
+                "value": 108
+                },
+                {
+                "c": 213,
+                "state": "CA",
+                "year": 1970,
+                "value": 12
+                },
+                {
+                "c": 214,
+                "state": "CO",
+                "year": 1970,
+                "value": 55
+                },
+                {
+                "c": 215,
+                "state": "CT",
+                "year": 1970,
+                "value": 16
+                },
+                {
+                "c": 216,
+                "state": "DE",
+                "year": 1970,
+                "value": 1
+                },
+                {
+                "c": 217,
+                "state": "FL",
+                "year": 1970,
+                "value": 283
+                },
+                {
+                "c": 218,
+                "state": "GA",
+                "year": 1970,
+                "value": 168
+                },
+                {
+                "c": 219,
+                "state": "HI",
+                "year": 1970,
+                "value": 7
+                },
+                {
+                "c": 220,
+                "state": "ID",
+                "year": 1970,
+                "value": 4
+                },
+                {
+                "c": 221,
+                "state": "IL",
+                "year": 1970,
+                "value": 231
+                },
+                {
+                "c": 222,
+                "state": "IN",
+                "year": 1970,
+                "value": 116
+                },
+                {
+                "c": 223,
+                "state": "IA",
+                "year": 1970,
+                "value": 137
+                },
+                {
+                "c": 224,
+                "state": "KS",
+                "year": 1970,
+                "value": 199
+                },
+                {
+                "c": 225,
+                "state": "KY",
+                "year": 1970,
+                "value": 84
+                },
+                {
+                "c": 226,
+                "state": "LA",
+                "year": 1970,
+                "value": 135
+                },
+                {
+                "c": 227,
+                "state": "ME",
+                "year": 1970,
+                "value": 19
+                },
+                {
+                "c": 228,
+                "state": "MD",
+                "year": 1970,
+                "value": 12
+                },
+                {
+                "c": 229,
+                "state": "MA",
+                "year": 1970,
+                "value": 25
+                },
+                {
+                "c": 230,
+                "state": "MI",
+                "year": 1970,
+                "value": 99
+                },
+                {
+                "c": 231,
+                "state": "MN",
+                "year": 1970,
+                "value": 74
+                },
+                {
+                "c": 232,
+                "state": "MS",
+                "year": 1970,
+                "value": 176
+                },
+                {
+                "c": 233,
+                "state": "MO",
+                "year": 1970,
+                "value": 176
+                },
+                {
+                "c": 234,
+                "state": "MT",
+                "year": 1970,
+                "value": 15
+                },
+                {
+                "c": 235,
+                "state": "NE",
+                "year": 1970,
+                "value": 146
+                },
+                {
+                "c": 236,
+                "state": "NV",
+                "year": 1970,
+                "value": 5
+                },
+                {
+                "c": 237,
+                "state": "NH",
+                "year": 1970,
+                "value": 15
+                },
+                {
+                "c": 238,
+                "state": "NJ",
+                "year": 1970,
+                "value": 15
+                },
+                {
+                "c": 239,
+                "state": "NM",
+                "year": 1970,
+                "value": 49
+                },
+                {
+                "c": 240,
+                "state": "NY",
+                "year": 1970,
+                "value": 27
+                },
+                {
+                "c": 241,
+                "state": "NC",
+                "year": 1970,
+                "value": 67
+                },
+                {
+                "c": 242,
+                "state": "ND",
+                "year": 1970,
+                "value": 73
+                },
+                {
+                "c": 243,
+                "state": "OH",
+                "year": 1970,
+                "value": 113
+                },
+                {
+                "c": 244,
+                "state": "OK",
+                "year": 1970,
+                "value": 239
+                },
+                {
+                "c": 245,
+                "state": "OR",
+                "year": 1970,
+                "value": 5
+                },
+                {
+                "c": 246,
+                "state": "PA",
+                "year": 1970,
+                "value": 36
+                },
+                {
+                "c": 247,
+                "state": "RI",
+                "year": 1970,
+                "value": 1
+                },
+                {
+                "c": 248,
+                "state": "SC",
+                "year": 1970,
+                "value": 44
+                },
+                {
+                "c": 249,
+                "state": "SD",
+                "year": 1970,
+                "value": 151
+                },
+                {
+                "c": 250,
+                "state": "TN",
+                "year": 1970,
+                "value": 106
+                },
+                {
+                "c": 251,
+                "state": "TX",
+                "year": 1970,
+                "value": 719
+                },
+                {
+                "c": 252,
+                "state": "UT",
+                "year": 1970,
+                "value": 6
+                },
+                {
+                "c": 253,
+                "state": "VT",
+                "year": 1970,
+                "value": 5
+                },
+                {
+                "c": 254,
+                "state": "VA",
+                "year": 1970,
+                "value": 22
+                },
+                {
+                "c": 255,
+                "state": "WA",
+                "year": 1970,
+                "value": 8
+                },
+                {
+                "c": 256,
+                "state": "WV",
+                "year": 1970,
+                "value": 13
+                },
+                {
+                "c": 257,
+                "state": "WI",
+                "year": 1970,
+                "value": 112
+                },
+                {
+                "c": 258,
+                "state": "WY",
+                "year": 1970,
+                "value": 26
+                },
+                {
+                "c": 259,
+                "state": "DC",
+                "year": 1970,
+                "value": 0
+                },
+                {
+                "c": 260,
+                "state": "PR",
+                "year": 1970,
+                "value": 2
+                },
+                {
+                "c": 261,
+                "state": "AL",
+                "year": 1975,
+                "value": 130
+                },
+                {
+                "c": 262,
+                "state": "AK",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 263,
+                "state": "AZ",
+                "year": 1975,
+                "value": 13
+                },
+                {
+                "c": 264,
+                "state": "AR",
+                "year": 1975,
+                "value": 153
+                },
+                {
+                "c": 265,
+                "state": "CA",
+                "year": 1975,
+                "value": 30
+                },
+                {
+                "c": 266,
+                "state": "CO",
+                "year": 1975,
+                "value": 148
+                },
+                {
+                "c": 267,
+                "state": "CT",
+                "year": 1975,
+                "value": 4
+                },
+                {
+                "c": 268,
+                "state": "DE",
+                "year": 1975,
+                "value": 12
+                },
+                {
+                "c": 269,
+                "state": "FL",
+                "year": 1975,
+                "value": 379
+                },
+                {
+                "c": 270,
+                "state": "GA",
+                "year": 1975,
+                "value": 91
+                },
+                {
+                "c": 271,
+                "state": "HI",
+                "year": 1975,
+                "value": 2
+                },
+                {
+                "c": 272,
+                "state": "ID",
+                "year": 1975,
+                "value": 3
+                },
+                {
+                "c": 273,
+                "state": "IL",
+                "year": 1975,
+                "value": 130
+                },
+                {
+                "c": 274,
+                "state": "IN",
+                "year": 1975,
+                "value": 109
+                },
+                {
+                "c": 275,
+                "state": "IA",
+                "year": 1975,
+                "value": 165
+                },
+                {
+                "c": 276,
+                "state": "KS",
+                "year": 1975,
+                "value": 102
+                },
+                {
+                "c": 277,
+                "state": "KY",
+                "year": 1975,
+                "value": 30
+                },
+                {
+                "c": 278,
+                "state": "LA",
+                "year": 1975,
+                "value": 139
+                },
+                {
+                "c": 279,
+                "state": "ME",
+                "year": 1975,
+                "value": 6
+                },
+                {
+                "c": 280,
+                "state": "MD",
+                "year": 1975,
+                "value": 31
+                },
+                {
+                "c": 281,
+                "state": "MA",
+                "year": 1975,
+                "value": 8
+                },
+                {
+                "c": 282,
+                "state": "MI",
+                "year": 1975,
+                "value": 130
+                },
+                {
+                "c": 283,
+                "state": "MN",
+                "year": 1975,
+                "value": 100
+                },
+                {
+                "c": 284,
+                "state": "MS",
+                "year": 1975,
+                "value": 120
+                },
+                {
+                "c": 285,
+                "state": "MO",
+                "year": 1975,
+                "value": 64
+                },
+                {
+                "c": 286,
+                "state": "MT",
+                "year": 1975,
+                "value": 36
+                },
+                {
+                "c": 287,
+                "state": "NE",
+                "year": 1975,
+                "value": 233
+                },
+                {
+                "c": 288,
+                "state": "NV",
+                "year": 1975,
+                "value": 6
+                },
+                {
+                "c": 289,
+                "state": "NH",
+                "year": 1975,
+                "value": 5
+                },
+                {
+                "c": 290,
+                "state": "NJ",
+                "year": 1975,
+                "value": 8
+                },
+                {
+                "c": 291,
+                "state": "NM",
+                "year": 1975,
+                "value": 29
+                },
+                {
+                "c": 292,
+                "state": "NY",
+                "year": 1975,
+                "value": 27
+                },
+                {
+                "c": 293,
+                "state": "NC",
+                "year": 1975,
+                "value": 112
+                },
+                {
+                "c": 294,
+                "state": "ND",
+                "year": 1975,
+                "value": 157
+                },
+                {
+                "c": 295,
+                "state": "OH",
+                "year": 1975,
+                "value": 66
+                },
+                {
+                "c": 296,
+                "state": "OK",
+                "year": 1975,
+                "value": 185
+                },
+                {
+                "c": 297,
+                "state": "OR",
+                "year": 1975,
+                "value": 4
+                },
+                {
+                "c": 298,
+                "state": "PA",
+                "year": 1975,
+                "value": 80
+                },
+                {
+                "c": 299,
+                "state": "RI",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 300,
+                "state": "SC",
+                "year": 1975,
+                "value": 50
+                },
+                {
+                "c": 301,
+                "state": "SD",
+                "year": 1975,
+                "value": 123
+                },
+                {
+                "c": 302,
+                "state": "TN",
+                "year": 1975,
+                "value": 51
+                },
+                {
+                "c": 303,
+                "state": "TX",
+                "year": 1975,
+                "value": 712
+                },
+                {
+                "c": 304,
+                "state": "UT",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 305,
+                "state": "VT",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 306,
+                "state": "VA",
+                "year": 1975,
+                "value": 59
+                },
+                {
+                "c": 307,
+                "state": "WA",
+                "year": 1975,
+                "value": 6
+                },
+                {
+                "c": 308,
+                "state": "WV",
+                "year": 1975,
+                "value": 15
+                },
+                {
+                "c": 309,
+                "state": "WI",
+                "year": 1975,
+                "value": 77
+                },
+                {
+                "c": 310,
+                "state": "WY",
+                "year": 1975,
+                "value": 109
+                },
+                {
+                "c": 311,
+                "state": "DC",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 312,
+                "state": "PR",
+                "year": 1975,
+                "value": 0
+                },
+                {
+                "c": 313,
+                "state": "AL",
+                "year": 1980,
+                "value": 150
+                },
+                {
+                "c": 314,
+                "state": "AK",
+                "year": 1980,
+                "value": 0
+                },
+                {
+                "c": 315,
+                "state": "AZ",
+                "year": 1980,
+                "value": 14
+                },
+                {
+                "c": 316,
+                "state": "AR",
+                "year": 1980,
+                "value": 147
+                },
+                {
+                "c": 317,
+                "state": "CA",
+                "year": 1980,
+                "value": 36
+                },
+                {
+                "c": 318,
+                "state": "CO",
+                "year": 1980,
+                "value": 180
+                },
+                {
+                "c": 319,
+                "state": "CT",
+                "year": 1980,
+                "value": 3
+                },
+                {
+                "c": 320,
+                "state": "DE",
+                "year": 1980,
+                "value": 2
+                },
+                {
+                "c": 321,
+                "state": "FL",
+                "year": 1980,
+                "value": 305
+                },
+                {
+                "c": 322,
+                "state": "GA",
+                "year": 1980,
+                "value": 117
+                },
+                {
+                "c": 323,
+                "state": "HI",
+                "year": 1980,
+                "value": 5
+                },
+                {
+                "c": 324,
+                "state": "ID",
+                "year": 1980,
+                "value": 10
+                },
+                {
+                "c": 325,
+                "state": "IL",
+                "year": 1980,
+                "value": 129
+                },
+                {
+                "c": 326,
+                "state": "IN",
+                "year": 1980,
+                "value": 59
+                },
+                {
+                "c": 327,
+                "state": "IA",
+                "year": 1980,
+                "value": 192
+                },
+                {
+                "c": 328,
+                "state": "KS",
+                "year": 1980,
+                "value": 209
+                },
+                {
+                "c": 329,
+                "state": "KY",
+                "year": 1980,
+                "value": 46
+                },
+                {
+                "c": 330,
+                "state": "LA",
+                "year": 1980,
+                "value": 169
+                },
+                {
+                "c": 331,
+                "state": "ME",
+                "year": 1980,
+                "value": 2
+                },
+                {
+                "c": 332,
+                "state": "MD",
+                "year": 1980,
+                "value": 12
+                },
+                {
+                "c": 333,
+                "state": "MA",
+                "year": 1980,
+                "value": 6
+                },
+                {
+                "c": 334,
+                "state": "MI",
+                "year": 1980,
+                "value": 84
+                },
+                {
+                "c": 335,
+                "state": "MN",
+                "year": 1980,
+                "value": 118
+                },
+                {
+                "c": 336,
+                "state": "MS",
+                "year": 1980,
+                "value": 94
+                },
+                {
+                "c": 337,
+                "state": "MO",
+                "year": 1980,
+                "value": 179
+                },
+                {
+                "c": 338,
+                "state": "MT",
+                "year": 1980,
+                "value": 22
+                },
+                {
+                "c": 339,
+                "state": "NE",
+                "year": 1980,
+                "value": 155
+                },
+                {
+                "c": 340,
+                "state": "NV",
+                "year": 1980,
+                "value": 4
+                },
+                {
+                "c": 341,
+                "state": "NH",
+                "year": 1980,
+                "value": 5
+                },
+                {
+                "c": 342,
+                "state": "NJ",
+                "year": 1980,
+                "value": 6
+                },
+                {
+                "c": 343,
+                "state": "NM",
+                "year": 1980,
+                "value": 22
+                },
+                {
+                "c": 344,
+                "state": "NY",
+                "year": 1980,
+                "value": 24
+                },
+                {
+                "c": 345,
+                "state": "NC",
+                "year": 1980,
+                "value": 72
+                },
+                {
+                "c": 346,
+                "state": "ND",
+                "year": 1980,
+                "value": 102
+                },
+                {
+                "c": 347,
+                "state": "OH",
+                "year": 1980,
+                "value": 79
+                },
+                {
+                "c": 348,
+                "state": "OK",
+                "year": 1980,
+                "value": 340
+                },
+                {
+                "c": 349,
+                "state": "OR",
+                "year": 1980,
+                "value": 7
+                },
+                {
+                "c": 350,
+                "state": "PA",
+                "year": 1980,
+                "value": 62
+                },
+                {
+                "c": 351,
+                "state": "RI",
+                "year": 1980,
+                "value": 0
+                },
+                {
+                "c": 352,
+                "state": "SC",
+                "year": 1980,
+                "value": 57
+                },
+                {
+                "c": 353,
+                "state": "SD",
+                "year": 1980,
+                "value": 162
+                },
+                {
+                "c": 354,
+                "state": "TN",
+                "year": 1980,
+                "value": 72
+                },
+                {
+                "c": 355,
+                "state": "TX",
+                "year": 1980,
+                "value": 810
+                },
+                {
+                "c": 356,
+                "state": "UT",
+                "year": 1980,
+                "value": 11
+                },
+                {
+                "c": 357,
+                "state": "VT",
+                "year": 1980,
+                "value": 2
+                },
+                {
+                "c": 358,
+                "state": "VA",
+                "year": 1980,
+                "value": 27
+                },
+                {
+                "c": 359,
+                "state": "WA",
+                "year": 1980,
+                "value": 12
+                },
+                {
+                "c": 360,
+                "state": "WV",
+                "year": 1980,
+                "value": 10
+                },
+                {
+                "c": 361,
+                "state": "WI",
+                "year": 1980,
+                "value": 143
+                },
+                {
+                "c": 362,
+                "state": "WY",
+                "year": 1980,
+                "value": 58
+                },
+                {
+                "c": 363,
+                "state": "DC",
+                "year": 1980,
+                "value": 0
+                },
+                {
+                "c": 364,
+                "state": "PR",
+                "year": 1980,
+                "value": 0
+                },
+                {
+                "c": 365,
+                "state": "AL",
+                "year": 1985,
+                "value": 102
+                },
+                {
+                "c": 366,
+                "state": "AK",
+                "year": 1985,
+                "value": 0
+                },
+                {
+                "c": 367,
+                "state": "AZ",
+                "year": 1985,
+                "value": 10
+                },
+                {
+                "c": 368,
+                "state": "AR",
+                "year": 1985,
+                "value": 44
+                },
+                {
+                "c": 369,
+                "state": "CA",
+                "year": 1985,
+                "value": 25
+                },
+                {
+                "c": 370,
+                "state": "CO",
+                "year": 1985,
+                "value": 155
+                },
+                {
+                "c": 371,
+                "state": "CT",
+                "year": 1985,
+                "value": 5
+                },
+                {
+                "c": 372,
+                "state": "DE",
+                "year": 1985,
+                "value": 5
+                },
+                {
+                "c": 373,
+                "state": "FL",
+                "year": 1985,
+                "value": 250
+                },
+                {
+                "c": 374,
+                "state": "GA",
+                "year": 1985,
+                "value": 63
+                },
+                {
+                "c": 375,
+                "state": "HI",
+                "year": 1985,
+                "value": 6
+                },
+                {
+                "c": 376,
+                "state": "ID",
+                "year": 1985,
+                "value": 31
+                },
+                {
+                "c": 377,
+                "state": "IL",
+                "year": 1985,
+                "value": 94
+                },
+                {
+                "c": 378,
+                "state": "IN",
+                "year": 1985,
+                "value": 81
+                },
+                {
+                "c": 379,
+                "state": "IA",
+                "year": 1985,
+                "value": 182
+                },
+                {
+                "c": 380,
+                "state": "KS",
+                "year": 1985,
+                "value": 129
+                },
+                {
+                "c": 381,
+                "state": "KY",
+                "year": 1985,
+                "value": 44
+                },
+                {
+                "c": 382,
+                "state": "LA",
+                "year": 1985,
+                "value": 141
+                },
+                {
+                "c": 383,
+                "state": "ME",
+                "year": 1985,
+                "value": 3
+                },
+                {
+                "c": 384,
+                "state": "MD",
+                "year": 1985,
+                "value": 1
+                },
+                {
+                "c": 385,
+                "state": "MA",
+                "year": 1985,
+                "value": 10
+                },
+                {
+                "c": 386,
+                "state": "MI",
+                "year": 1985,
+                "value": 102
+                },
+                {
+                "c": 387,
+                "state": "MN",
+                "year": 1985,
+                "value": 80
+                },
+                {
+                "c": 388,
+                "state": "MS",
+                "year": 1985,
+                "value": 196
+                },
+                {
+                "c": 389,
+                "state": "MO",
+                "year": 1985,
+                "value": 66
+                },
+                {
+                "c": 390,
+                "state": "MT",
+                "year": 1985,
+                "value": 33
+                },
+                {
+                "c": 391,
+                "state": "NE",
+                "year": 1985,
+                "value": 191
+                },
+                {
+                "c": 392,
+                "state": "NV",
+                "year": 1985,
+                "value": 16
+                },
+                {
+                "c": 393,
+                "state": "NH",
+                "year": 1985,
+                "value": 4
+                },
+                {
+                "c": 394,
+                "state": "NJ",
+                "year": 1985,
+                "value": 33
+                },
+                {
+                "c": 395,
+                "state": "NM",
+                "year": 1985,
+                "value": 48
+                },
+                {
+                "c": 396,
+                "state": "NY",
+                "year": 1985,
+                "value": 42
+                },
+                {
+                "c": 397,
+                "state": "NC",
+                "year": 1985,
+                "value": 70
+                },
+                {
+                "c": 398,
+                "state": "ND",
+                "year": 1985,
+                "value": 123
+                },
+                {
+                "c": 399,
+                "state": "OH",
+                "year": 1985,
+                "value": 64
+                },
+                {
+                "c": 400,
+                "state": "OK",
+                "year": 1985,
+                "value": 143
+                },
+                {
+                "c": 401,
+                "state": "OR",
+                "year": 1985,
+                "value": 2
+                },
+                {
+                "c": 402,
+                "state": "PA",
+                "year": 1985,
+                "value": 57
+                },
+                {
+                "c": 403,
+                "state": "RI",
+                "year": 1985,
+                "value": 4
+                },
+                {
+                "c": 404,
+                "state": "SC",
+                "year": 1985,
+                "value": 31
+                },
+                {
+                "c": 405,
+                "state": "SD",
+                "year": 1985,
+                "value": 132
+                },
+                {
+                "c": 406,
+                "state": "TN",
+                "year": 1985,
+                "value": 39
+                },
+                {
+                "c": 407,
+                "state": "TX",
+                "year": 1985,
+                "value": 597
+                },
+                {
+                "c": 408,
+                "state": "UT",
+                "year": 1985,
+                "value": 13
+                },
+                {
+                "c": 409,
+                "state": "VT",
+                "year": 1985,
+                "value": 5
+                },
+                {
+                "c": 410,
+                "state": "VA",
+                "year": 1985,
+                "value": 27
+                },
+                {
+                "c": 411,
+                "state": "WA",
+                "year": 1985,
+                "value": 7
+                },
+                {
+                "c": 412,
+                "state": "WV",
+                "year": 1985,
+                "value": 7
+                },
+                {
+                "c": 413,
+                "state": "WI",
+                "year": 1985,
+                "value": 97
+                },
+                {
+                "c": 414,
+                "state": "WY",
+                "year": 1985,
+                "value": 53
+                },
+                {
+                "c": 415,
+                "state": "DC",
+                "year": 1985,
+                "value": 0
+                },
+                {
+                "c": 416,
+                "state": "PR",
+                "year": 1985,
+                "value": 0
+                },
+                {
+                "c": 417,
+                "state": "AL",
+                "year": 1990,
+                "value": 79
+                },
+                {
+                "c": 418,
+                "state": "AK",
+                "year": 1990,
+                "value": 0
+                },
+                {
+                "c": 419,
+                "state": "AZ",
+                "year": 1990,
+                "value": 31
+                },
+                {
+                "c": 420,
+                "state": "AR",
+                "year": 1990,
+                "value": 70
+                },
+                {
+                "c": 421,
+                "state": "CA",
+                "year": 1990,
+                "value": 63
+                },
+                {
+                "c": 422,
+                "state": "CO",
+                "year": 1990,
+                "value": 329
+                },
+                {
+                "c": 423,
+                "state": "CT",
+                "year": 1990,
+                "value": 7
+                },
+                {
+                "c": 424,
+                "state": "DE",
+                "year": 1990,
+                "value": 17
+                },
+                {
+                "c": 425,
+                "state": "FL",
+                "year": 1990,
+                "value": 334
+                },
+                {
+                "c": 426,
+                "state": "GA",
+                "year": 1990,
+                "value": 126
+                },
+                {
+                "c": 427,
+                "state": "HI",
+                "year": 1990,
+                "value": 0
+                },
+                {
+                "c": 428,
+                "state": "ID",
+                "year": 1990,
+                "value": 38
+                },
+                {
+                "c": 429,
+                "state": "IL",
+                "year": 1990,
+                "value": 157
+                },
+                {
+                "c": 430,
+                "state": "IN",
+                "year": 1990,
+                "value": 130
+                },
+                {
+                "c": 431,
+                "state": "IA",
+                "year": 1990,
+                "value": 253
+                },
+                {
+                "c": 432,
+                "state": "KS",
+                "year": 1990,
+                "value": 445
+                },
+                {
+                "c": 433,
+                "state": "KY",
+                "year": 1990,
+                "value": 59
+                },
+                {
+                "c": 434,
+                "state": "LA",
+                "year": 1990,
+                "value": 207
+                },
+                {
+                "c": 435,
+                "state": "ME",
+                "year": 1990,
+                "value": 6
+                },
+                {
+                "c": 436,
+                "state": "MD",
+                "year": 1990,
+                "value": 51
+                },
+                {
+                "c": 437,
+                "state": "MA",
+                "year": 1990,
+                "value": 6
+                },
+                {
+                "c": 438,
+                "state": "MI",
+                "year": 1990,
+                "value": 93
+                },
+                {
+                "c": 439,
+                "state": "MN",
+                "year": 1990,
+                "value": 169
+                },
+                {
+                "c": 440,
+                "state": "MS",
+                "year": 1990,
+                "value": 135
+                },
+                {
+                "c": 441,
+                "state": "MO",
+                "year": 1990,
+                "value": 148
+                },
+                {
+                "c": 442,
+                "state": "MT",
+                "year": 1990,
+                "value": 72
+                },
+                {
+                "c": 443,
+                "state": "NE",
+                "year": 1990,
+                "value": 351
+                },
+                {
+                "c": 444,
+                "state": "NV",
+                "year": 1990,
+                "value": 10
+                },
+                {
+                "c": 445,
+                "state": "NH",
+                "year": 1990,
+                "value": 3
+                },
+                {
+                "c": 446,
+                "state": "NJ",
+                "year": 1990,
+                "value": 24
+                },
+                {
+                "c": 447,
+                "state": "NM",
+                "year": 1990,
+                "value": 87
+                },
+                {
+                "c": 448,
+                "state": "NY",
+                "year": 1990,
+                "value": 85
+                },
+                {
+                "c": 449,
+                "state": "NC",
+                "year": 1990,
+                "value": 110
+                },
+                {
+                "c": 450,
+                "state": "ND",
+                "year": 1990,
+                "value": 116
+                },
+                {
+                "c": 451,
+                "state": "OH",
+                "year": 1990,
+                "value": 124
+                },
+                {
+                "c": 452,
+                "state": "OK",
+                "year": 1990,
+                "value": 272
+                },
+                {
+                "c": 453,
+                "state": "OR",
+                "year": 1990,
+                "value": 10
+                },
+                {
+                "c": 454,
+                "state": "PA",
+                "year": 1990,
+                "value": 109
+                },
+                {
+                "c": 455,
+                "state": "RI",
+                "year": 1990,
+                "value": 2
+                },
+                {
+                "c": 456,
+                "state": "SC",
+                "year": 1990,
+                "value": 82
+                },
+                {
+                "c": 457,
+                "state": "SD",
+                "year": 1990,
+                "value": 205
+                },
+                {
+                "c": 458,
+                "state": "TN",
+                "year": 1990,
+                "value": 65
+                },
+                {
+                "c": 459,
+                "state": "TX",
+                "year": 1990,
+                "value": 843
+                },
+                {
+                "c": 460,
+                "state": "UT",
+                "year": 1990,
+                "value": 19
+                },
+                {
+                "c": 461,
+                "state": "VT",
+                "year": 1990,
+                "value": 1
+                },
+                {
+                "c": 462,
+                "state": "VA",
+                "year": 1990,
+                "value": 60
+                },
+                {
+                "c": 463,
+                "state": "WA",
+                "year": 1990,
+                "value": 6
+                },
+                {
+                "c": 464,
+                "state": "WV",
+                "year": 1990,
+                "value": 9
+                },
+                {
+                "c": 465,
+                "state": "WI",
+                "year": 1990,
+                "value": 117
+                },
+                {
+                "c": 466,
+                "state": "WY",
+                "year": 1990,
+                "value": 81
+                },
+                {
+                "c": 467,
+                "state": "DC",
+                "year": 1990,
+                "value": 0
+                },
+                {
+                "c": 468,
+                "state": "PR",
+                "year": 1990,
+                "value": 0
+                },
+                {
+                "c": 469,
+                "state": "AL",
+                "year": 1995,
+                "value": 172
+                },
+                {
+                "c": 470,
+                "state": "AK",
+                "year": 1995,
+                "value": 0
+                },
+                {
+                "c": 471,
+                "state": "AZ",
+                "year": 1995,
+                "value": 25
+                },
+                {
+                "c": 472,
+                "state": "AR",
+                "year": 1995,
+                "value": 235
+                },
+                {
+                "c": 473,
+                "state": "CA",
+                "year": 1995,
+                "value": 74
+                },
+                {
+                "c": 474,
+                "state": "CO",
+                "year": 1995,
+                "value": 272
+                },
+                {
+                "c": 475,
+                "state": "CT",
+                "year": 1995,
+                "value": 8
+                },
+                {
+                "c": 476,
+                "state": "DE",
+                "year": 1995,
+                "value": 3
+                },
+                {
+                "c": 477,
+                "state": "FL",
+                "year": 1995,
+                "value": 445
+                },
+                {
+                "c": 478,
+                "state": "GA",
+                "year": 1995,
+                "value": 110
+                },
+                {
+                "c": 479,
+                "state": "HI",
+                "year": 1995,
+                "value": 0
+                },
+                {
+                "c": 480,
+                "state": "ID",
+                "year": 1995,
+                "value": 26
+                },
+                {
+                "c": 481,
+                "state": "IL",
+                "year": 1995,
+                "value": 331
+                },
+                {
+                "c": 482,
+                "state": "IN",
+                "year": 1995,
+                "value": 99
+                },
+                {
+                "c": 483,
+                "state": "IA",
+                "year": 1995,
+                "value": 219
+                },
+                {
+                "c": 484,
+                "state": "KS",
+                "year": 1995,
+                "value": 339
+                },
+                {
+                "c": 485,
+                "state": "KY",
+                "year": 1995,
+                "value": 111
+                },
+                {
+                "c": 486,
+                "state": "LA",
+                "year": 1995,
+                "value": 175
+                },
+                {
+                "c": 487,
+                "state": "ME",
+                "year": 1995,
+                "value": 6
+                },
+                {
+                "c": 488,
+                "state": "MD",
+                "year": 1995,
+                "value": 61
+                },
+                {
+                "c": 489,
+                "state": "MA",
+                "year": 1995,
+                "value": 8
+                },
+                {
+                "c": 490,
+                "state": "MI",
+                "year": 1995,
+                "value": 72
+                },
+                {
+                "c": 491,
+                "state": "MN",
+                "year": 1995,
+                "value": 208
+                },
+                {
+                "c": 492,
+                "state": "MS",
+                "year": 1995,
+                "value": 163
+                },
+                {
+                "c": 493,
+                "state": "MO",
+                "year": 1995,
+                "value": 139
+                },
+                {
+                "c": 494,
+                "state": "MT",
+                "year": 1995,
+                "value": 65
+                },
+                {
+                "c": 495,
+                "state": "NE",
+                "year": 1995,
+                "value": 284
+                },
+                {
+                "c": 496,
+                "state": "NV",
+                "year": 1995,
+                "value": 13
+                },
+                {
+                "c": 497,
+                "state": "NH",
+                "year": 1995,
+                "value": 6
+                },
+                {
+                "c": 498,
+                "state": "NJ",
+                "year": 1995,
+                "value": 14
+                },
+                {
+                "c": 499,
+                "state": "NM",
+                "year": 1995,
+                "value": 51
+                },
+                {
+                "c": 500,
+                "state": "NY",
+                "year": 1995,
+                "value": 40
+                },
+                {
+                "c": 501,
+                "state": "NC",
+                "year": 1995,
+                "value": 192
+                },
+                {
+                "c": 502,
+                "state": "ND",
+                "year": 1995,
+                "value": 155
+                },
+                {
+                "c": 503,
+                "state": "OH",
+                "year": 1995,
+                "value": 75
+                },
+                {
+                "c": 504,
+                "state": "OK",
+                "year": 1995,
+                "value": 408
+                },
+                {
+                "c": 505,
+                "state": "OR",
+                "year": 1995,
+                "value": 26
+                },
+                {
+                "c": 506,
+                "state": "PA",
+                "year": 1995,
+                "value": 113
+                },
+                {
+                "c": 507,
+                "state": "RI",
+                "year": 1995,
+                "value": 0
+                },
+                {
+                "c": 508,
+                "state": "SC",
+                "year": 1995,
+                "value": 154
+                },
+                {
+                "c": 509,
+                "state": "SD",
+                "year": 1995,
+                "value": 155
+                },
+                {
+                "c": 510,
+                "state": "TN",
+                "year": 1995,
+                "value": 147
+                },
+                {
+                "c": 511,
+                "state": "TX",
+                "year": 1995,
+                "value": 845
+                },
+                {
+                "c": 512,
+                "state": "UT",
+                "year": 1995,
+                "value": 16
+                },
+                {
+                "c": 513,
+                "state": "VT",
+                "year": 1995,
+                "value": 0
+                },
+                {
+                "c": 514,
+                "state": "VA",
+                "year": 1995,
+                "value": 66
+                },
+                {
+                "c": 515,
+                "state": "WA",
+                "year": 1995,
+                "value": 17
+                },
+                {
+                "c": 516,
+                "state": "WV",
+                "year": 1995,
+                "value": 18
+                },
+                {
+                "c": 517,
+                "state": "WI",
+                "year": 1995,
+                "value": 77
+                },
+                {
+                "c": 518,
+                "state": "WY",
+                "year": 1995,
+                "value": 77
+                },
+                {
+                "c": 519,
+                "state": "DC",
+                "year": 1995,
+                "value": 1
+                },
+                {
+                "c": 520,
+                "state": "PR",
+                "year": 1995,
+                "value": 5
+                },
+                {
+                "c": 521,
+                "state": "AL",
+                "year": 2000,
+                "value": 230
+                },
+                {
+                "c": 522,
+                "state": "AK",
+                "year": 2000,
+                "value": 2
+                },
+                {
+                "c": 523,
+                "state": "AZ",
+                "year": 2000,
+                "value": 15
+                },
+                {
+                "c": 524,
+                "state": "AR",
+                "year": 2000,
+                "value": 218
+                },
+                {
+                "c": 525,
+                "state": "CA",
+                "year": 2000,
+                "value": 29
+                },
+                {
+                "c": 526,
+                "state": "CO",
+                "year": 2000,
+                "value": 244
+                },
+                {
+                "c": 527,
+                "state": "CT",
+                "year": 2000,
+                "value": 9
+                },
+                {
+                "c": 528,
+                "state": "DE",
+                "year": 2000,
+                "value": 2
+                },
+                {
+                "c": 529,
+                "state": "FL",
+                "year": 2000,
+                "value": 338
+                },
+                {
+                "c": 530,
+                "state": "GA",
+                "year": 2000,
+                "value": 134
+                },
+                {
+                "c": 531,
+                "state": "HI",
+                "year": 2000,
+                "value": 4
+                },
+                {
+                "c": 532,
+                "state": "ID",
+                "year": 2000,
+                "value": 27
+                },
+                {
+                "c": 533,
+                "state": "IL",
+                "year": 2000,
+                "value": 312
+                },
+                {
+                "c": 534,
+                "state": "IN",
+                "year": 2000,
+                "value": 123
+                },
+                {
+                "c": 535,
+                "state": "IA",
+                "year": 2000,
+                "value": 328
+                },
+                {
+                "c": 536,
+                "state": "KS",
+                "year": 2000,
+                "value": 472
+                },
+                {
+                "c": 537,
+                "state": "KY",
+                "year": 2000,
+                "value": 97
+                },
+                {
+                "c": 538,
+                "state": "LA",
+                "year": 2000,
+                "value": 156
+                },
+                {
+                "c": 539,
+                "state": "ME",
+                "year": 2000,
+                "value": 8
+                },
+                {
+                "c": 540,
+                "state": "MD",
+                "year": 2000,
+                "value": 59
+                },
+                {
+                "c": 541,
+                "state": "MA",
+                "year": 2000,
+                "value": 6
+                },
+                {
+                "c": 542,
+                "state": "MI",
+                "year": 2000,
+                "value": 85
+                },
+                {
+                "c": 543,
+                "state": "MN",
+                "year": 2000,
+                "value": 242
+                },
+                {
+                "c": 544,
+                "state": "MS",
+                "year": 2000,
+                "value": 219
+                },
+                {
+                "c": 545,
+                "state": "MO",
+                "year": 2000,
+                "value": 245
+                },
+                {
+                "c": 546,
+                "state": "MT",
+                "year": 2000,
+                "value": 42
+                },
+                {
+                "c": 547,
+                "state": "NE",
+                "year": 2000,
+                "value": 341
+                },
+                {
+                "c": 548,
+                "state": "NV",
+                "year": 2000,
+                "value": 11
+                },
+                {
+                "c": 549,
+                "state": "NH",
+                "year": 2000,
+                "value": 1
+                },
+                {
+                "c": 550,
+                "state": "NJ",
+                "year": 2000,
+                "value": 11
+                },
+                {
+                "c": 551,
+                "state": "NM",
+                "year": 2000,
+                "value": 31
+                },
+                {
+                "c": 552,
+                "state": "NY",
+                "year": 2000,
+                "value": 48
+                },
+                {
+                "c": 553,
+                "state": "NC",
+                "year": 2000,
+                "value": 149
+                },
+                {
+                "c": 554,
+                "state": "ND",
+                "year": 2000,
+                "value": 169
+                },
+                {
+                "c": 555,
+                "state": "OH",
+                "year": 2000,
+                "value": 78
+                },
+                {
+                "c": 556,
+                "state": "OK",
+                "year": 2000,
+                "value": 258
+                },
+                {
+                "c": 557,
+                "state": "OR",
+                "year": 2000,
+                "value": 17
+                },
+                {
+                "c": 558,
+                "state": "PA",
+                "year": 2000,
+                "value": 67
+                },
+                {
+                "c": 559,
+                "state": "RI",
+                "year": 2000,
+                "value": 1
+                },
+                {
+                "c": 560,
+                "state": "SC",
+                "year": 2000,
+                "value": 149
+                },
+                {
+                "c": 561,
+                "state": "SD",
+                "year": 2000,
+                "value": 177
+                },
+                {
+                "c": 562,
+                "state": "TN",
+                "year": 2000,
+                "value": 131
+                },
+                {
+                "c": 563,
+                "state": "TX",
+                "year": 2000,
+                "value": 791
+                },
+                {
+                "c": 564,
+                "state": "UT",
+                "year": 2000,
+                "value": 13
+                },
+                {
+                "c": 565,
+                "state": "VT",
+                "year": 2000,
+                "value": 4
+                },
+                {
+                "c": 566,
+                "state": "VA",
+                "year": 2000,
+                "value": 145
+                },
+                {
+                "c": 567,
+                "state": "WA",
+                "year": 2000,
+                "value": 16
+                },
+                {
+                "c": 568,
+                "state": "WV",
+                "year": 2000,
+                "value": 11
+                },
+                {
+                "c": 569,
+                "state": "WI",
+                "year": 2000,
+                "value": 106
+                },
+                {
+                "c": 570,
+                "state": "WY",
+                "year": 2000,
+                "value": 39
+                },
+                {
+                "c": 571,
+                "state": "DC",
+                "year": 2000,
+                "value": 0
+                },
+                {
+                "c": 572,
+                "state": "PR",
+                "year": 2000,
+                "value": 5
+                },
+                {
+                "c": 573,
+                "state": "AL",
+                "year": 2005,
+                "value": 362
+                },
+                {
+                "c": 574,
+                "state": "AK",
+                "year": 2005,
+                "value": 1
+                },
+                {
+                "c": 575,
+                "state": "AZ",
+                "year": 2005,
+                "value": 21
+                },
+                {
+                "c": 576,
+                "state": "AR",
+                "year": 2005,
+                "value": 229
+                },
+                {
+                "c": 577,
+                "state": "CA",
+                "year": 2005,
+                "value": 54
+                },
+                {
+                "c": 578,
+                "state": "CO",
+                "year": 2005,
+                "value": 190
+                },
+                {
+                "c": 579,
+                "state": "CT",
+                "year": 2005,
+                "value": 5
+                },
+                {
+                "c": 580,
+                "state": "DE",
+                "year": 2005,
+                "value": 0
+                },
+                {
+                "c": 581,
+                "state": "FL",
+                "year": 2005,
+                "value": 240
+                },
+                {
+                "c": 582,
+                "state": "GA",
+                "year": 2005,
+                "value": 231
+                },
+                {
+                "c": 583,
+                "state": "HI",
+                "year": 2005,
+                "value": 7
+                },
+                {
+                "c": 584,
+                "state": "ID",
+                "year": 2005,
+                "value": 22
+                },
+                {
+                "c": 585,
+                "state": "IL",
+                "year": 2005,
+                "value": 262
+                },
+                {
+                "c": 586,
+                "state": "IN",
+                "year": 2005,
+                "value": 96
+                },
+                {
+                "c": 587,
+                "state": "IA",
+                "year": 2005,
+                "value": 253
+                },
+                {
+                "c": 588,
+                "state": "KS",
+                "year": 2005,
+                "value": 654
+                },
+                {
+                "c": 589,
+                "state": "KY",
+                "year": 2005,
+                "value": 133
+                },
+                {
+                "c": 590,
+                "state": "LA",
+                "year": 2005,
+                "value": 241
+                },
+                {
+                "c": 591,
+                "state": "ME",
+                "year": 2005,
+                "value": 11
+                },
+                {
+                "c": 592,
+                "state": "MD",
+                "year": 2005,
+                "value": 22
+                },
+                {
+                "c": 593,
+                "state": "MA",
+                "year": 2005,
+                "value": 3
+                },
+                {
+                "c": 594,
+                "state": "MI",
+                "year": 2005,
+                "value": 55
+                },
+                {
+                "c": 595,
+                "state": "MN",
+                "year": 2005,
+                "value": 179
+                },
+                {
+                "c": 596,
+                "state": "MS",
+                "year": 2005,
+                "value": 322
+                },
+                {
+                "c": 597,
+                "state": "MO",
+                "year": 2005,
+                "value": 312
+                },
+                {
+                "c": 598,
+                "state": "MT",
+                "year": 2005,
+                "value": 22
+                },
+                {
+                "c": 599,
+                "state": "NE",
+                "year": 2005,
+                "value": 200
+                },
+                {
+                "c": 600,
+                "state": "NV",
+                "year": 2005,
+                "value": 4
+                },
+                {
+                "c": 601,
+                "state": "NH",
+                "year": 2005,
+                "value": 3
+                },
+                {
+                "c": 602,
+                "state": "NJ",
+                "year": 2005,
+                "value": 2
+                },
+                {
+                "c": 603,
+                "state": "NM",
+                "year": 2005,
+                "value": 49
+                },
+                {
+                "c": 604,
+                "state": "NY",
+                "year": 2005,
+                "value": 25
+                },
+                {
+                "c": 605,
+                "state": "NC",
+                "year": 2005,
+                "value": 155
+                },
+                {
+                "c": 606,
+                "state": "ND",
+                "year": 2005,
+                "value": 174
+                },
+                {
+                "c": 607,
+                "state": "OH",
+                "year": 2005,
+                "value": 77
+                },
+                {
+                "c": 608,
+                "state": "OK",
+                "year": 2005,
+                "value": 213
+                },
+                {
+                "c": 609,
+                "state": "OR",
+                "year": 2005,
+                "value": 11
+                },
+                {
+                "c": 610,
+                "state": "PA",
+                "year": 2005,
+                "value": 38
+                },
+                {
+                "c": 611,
+                "state": "RI",
+                "year": 2005,
+                "value": 1
+                },
+                {
+                "c": 612,
+                "state": "SC",
+                "year": 2005,
+                "value": 143
+                },
+                {
+                "c": 613,
+                "state": "SD",
+                "year": 2005,
+                "value": 147
+                },
+                {
+                "c": 614,
+                "state": "TN",
+                "year": 2005,
+                "value": 146
+                },
+                {
+                "c": 615,
+                "state": "TX",
+                "year": 2005,
+                "value": 667
+                },
+                {
+                "c": 616,
+                "state": "UT",
+                "year": 2005,
+                "value": 11
+                },
+                {
+                "c": 617,
+                "state": "VT",
+                "year": 2005,
+                "value": 4
+                },
+                {
+                "c": 618,
+                "state": "VA",
+                "year": 2005,
+                "value": 97
+                },
+                {
+                "c": 619,
+                "state": "WA",
+                "year": 2005,
+                "value": 15
+                },
+                {
+                "c": 620,
+                "state": "WV",
+                "year": 2005,
+                "value": 3
+                },
+                {
+                "c": 621,
+                "state": "WI",
+                "year": 2005,
+                "value": 148
+                },
+                {
+                "c": 622,
+                "state": "WY",
+                "year": 2005,
+                "value": 41
+                },
+                {
+                "c": 623,
+                "state": "DC",
+                "year": 2005,
+                "value": 0
+                },
+                {
+                "c": 624,
+                "state": "PR",
+                "year": 2005,
+                "value": 4
+                },
+                {
+                "c": 625,
+                "state": "AL",
+                "year": 2010,
+                "value": 301
+                },
+                {
+                "c": 626,
+                "state": "AK",
+                "year": 2010,
+                "value": 0
+                },
+                {
+                "c": 627,
+                "state": "AZ",
+                "year": 2010,
+                "value": 20
+                },
+                {
+                "c": 628,
+                "state": "AR",
+                "year": 2010,
+                "value": 172
+                },
+                {
+                "c": 629,
+                "state": "CA",
+                "year": 2010,
+                "value": 42
+                },
+                {
+                "c": 630,
+                "state": "CO",
+                "year": 2010,
+                "value": 200
+                },
+                {
+                "c": 631,
+                "state": "CT",
+                "year": 2010,
+                "value": 12
+                },
+                {
+                "c": 632,
+                "state": "DE",
+                "year": 2010,
+                "value": 4
+                },
+                {
+                "c": 633,
+                "state": "FL",
+                "year": 2010,
+                "value": 171
+                },
+                {
+                "c": 634,
+                "state": "GA",
+                "year": 2010,
+                "value": 109
+                },
+                {
+                "c": 635,
+                "state": "HI",
+                "year": 2010,
+                "value": 2
+                },
+                {
+                "c": 636,
+                "state": "ID",
+                "year": 2010,
+                "value": 15
+                },
+                {
+                "c": 637,
+                "state": "IL",
+                "year": 2010,
+                "value": 250
+                },
+                {
+                "c": 638,
+                "state": "IN",
+                "year": 2010,
+                "value": 184
+                },
+                {
+                "c": 639,
+                "state": "IA",
+                "year": 2010,
+                "value": 180
+                },
+                {
+                "c": 640,
+                "state": "KS",
+                "year": 2010,
+                "value": 343
+                },
+                {
+                "c": 641,
+                "state": "KY",
+                "year": 2010,
+                "value": 179
+                },
+                {
+                "c": 642,
+                "state": "LA",
+                "year": 2010,
+                "value": 176
+                },
+                {
+                "c": 643,
+                "state": "ME",
+                "year": 2010,
+                "value": 19
+                },
+                {
+                "c": 644,
+                "state": "MD",
+                "year": 2010,
+                "value": 59
+                },
+                {
+                "c": 645,
+                "state": "MA",
+                "year": 2010,
+                "value": 10
+                },
+                {
+                "c": 646,
+                "state": "MI",
+                "year": 2010,
+                "value": 71
+                },
+                {
+                "c": 647,
+                "state": "MN",
+                "year": 2010,
+                "value": 215
+                },
+                {
+                "c": 648,
+                "state": "MS",
+                "year": 2010,
+                "value": 252
+                },
+                {
+                "c": 649,
+                "state": "MO",
+                "year": 2010,
+                "value": 262
+                },
+                {
+                "c": 650,
+                "state": "MT",
+                "year": 2010,
+                "value": 36
+                },
+                {
+                "c": 651,
+                "state": "NE",
+                "year": 2010,
+                "value": 247
+                },
+                {
+                "c": 652,
+                "state": "NV",
+                "year": 2010,
+                "value": 9
+                },
+                {
+                "c": 653,
+                "state": "NH",
+                "year": 2010,
+                "value": 6
+                },
+                {
+                "c": 654,
+                "state": "NJ",
+                "year": 2010,
+                "value": 7
+                },
+                {
+                "c": 655,
+                "state": "NM",
+                "year": 2010,
+                "value": 35
+                },
+                {
+                "c": 656,
+                "state": "NY",
+                "year": 2010,
+                "value": 59
+                },
+                {
+                "c": 657,
+                "state": "NC",
+                "year": 2010,
+                "value": 155
+                },
+                {
+                "c": 658,
+                "state": "ND",
+                "year": 2010,
+                "value": 157
+                },
+                {
+                "c": 659,
+                "state": "OH",
+                "year": 2010,
+                "value": 141
+                },
+                {
+                "c": 660,
+                "state": "OK",
+                "year": 2010,
+                "value": 381
+                },
+                {
+                "c": 661,
+                "state": "OR",
+                "year": 2010,
+                "value": 6
+                },
+                {
+                "c": 662,
+                "state": "PA",
+                "year": 2010,
+                "value": 77
+                },
+                {
+                "c": 663,
+                "state": "RI",
+                "year": 2010,
+                "value": 1
+                },
+                {
+                "c": 664,
+                "state": "SC",
+                "year": 2010,
+                "value": 69
+                },
+                {
+                "c": 665,
+                "state": "SD",
+                "year": 2010,
+                "value": 110
+                },
+                {
+                "c": 666,
+                "state": "TN",
+                "year": 2010,
+                "value": 211
+                },
+                {
+                "c": 667,
+                "state": "TX",
+                "year": 2010,
+                "value": 454
+                },
+                {
+                "c": 668,
+                "state": "UT",
+                "year": 2010,
+                "value": 5
+                },
+                {
+                "c": 669,
+                "state": "VT",
+                "year": 2010,
+                "value": 4
+                },
+                {
+                "c": 670,
+                "state": "VA",
+                "year": 2010,
+                "value": 83
+                },
+                {
+                "c": 671,
+                "state": "WA",
+                "year": 2010,
+                "value": 9
+                },
+                {
+                "c": 672,
+                "state": "WV",
+                "year": 2010,
+                "value": 12
+                },
+                {
+                "c": 673,
+                "state": "WI",
+                "year": 2010,
+                "value": 125
+                },
+                {
+                "c": 674,
+                "state": "WY",
+                "year": 2010,
+                "value": 52
+                },
+                {
+                "c": 675,
+                "state": "DC",
+                "year": 2010,
+                "value": 0
+                },
+                {
+                "c": 676,
+                "state": "PR",
+                "year": 2010,
+                "value": 3
+                }
+            ]
+        }
+    ]
+}
